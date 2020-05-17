@@ -7,19 +7,19 @@ I love working with React and Chakra-UI and this is work in pogress project wher
 Clone
 
 ```
-git clone
+git clone https://github.com/kstulgys/react-chakra-components
 ```
 
 Intall dependencies
 
 ```
-yarn or npm i
+yarn 
 ```
 
-start project
+Start project
 
 ```
-yarn dev or npm dev
+yarn dev 
 ```
 
 ## Running the tests

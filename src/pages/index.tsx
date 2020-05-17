@@ -91,7 +91,7 @@ export const GridItemList = () => {
   )
 }
 
-function Link({ children, to, ...rest }) {
+function Link({ children, to, ...rest }: any) {
   return (
     <Box width="full" {...rest}>
       <CLink
@@ -126,7 +126,7 @@ function Link({ children, to, ...rest }) {
   )
 }
 
-function Header(props) {
+function Header(props: any) {
   return (
     <Container {...props} py="24">
       <Stack mx="auto">
@@ -148,10 +148,10 @@ function Header(props) {
           </CLink>
           <Box mx="2">+</Box>
           <CLink textDecor="underline" isExternal href="https://chakra-ui.com/">
-            Chakra-UI ={' '}
+            Chakra-UI{' '}
           </CLink>
           <span role="img" aria-label="heart emoji">
-            💖
+            = 💖
           </span>
         </Stack>
 
@@ -180,6 +180,6 @@ function Header(props) {
   )
 }
 
-function Container(props) {
+function Container(props: any) {
   return <Stack maxW="6xl" mx="auto" width="full" p="4" {...props} />
 }

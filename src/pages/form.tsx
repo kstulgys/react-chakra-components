@@ -9,7 +9,7 @@ import { Stack } from '@chakra-ui/core'
 
 const FormPage = () => (
   <Layout>
-    <SEO title="React - Chakra UI forms" />
+    <SEO title="UI Components Built With React And Chakra-UI" />
     <Stack
       width="full"
       spacing="0"

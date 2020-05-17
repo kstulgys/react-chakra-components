@@ -1,7 +1,7 @@
 /*@jsx jsx*/
 import { jsx } from '@emotion/core'
 import React from 'react'
-import { Stack, Input, Checkbox as BaseCheckbox, InputGroup, InputRightElement, Icon, Box, Flex, Text, Button } from '@chakra-ui/core'
+import { Stack } from '@chakra-ui/core'
 
 export const ComponentWrapper = (props: any) => {
   return (

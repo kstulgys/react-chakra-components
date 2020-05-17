@@ -9,7 +9,7 @@ import { NavBar } from 'components/navigations'
 
 const NavigationPage = () => (
   <Layout>
-    <SEO title="React - Chakra UI forms" />
+    <SEO title="UI Components Built With React And Chakra-UI" />
     <Stack
       width="full"
       spacing="0"

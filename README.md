@@ -1,4 +1,4 @@
-# React - Chakra-ui Components
+# UI Components Built With React And Chakra-UI
 
 I love working with React and Chakra-UI and this is work in pogress project where I showcase UI components I have built for clients.
 

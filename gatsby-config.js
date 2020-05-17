@@ -1,7 +1,9 @@
+/* eslint-disable @typescript-eslint/camelcase */
+/* eslint-disable no-undef */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `UI Components Built With React And Chakra-UI`,
+    description: `UI Components Built With React And Chakra-UI`,
     author: `@imkarolis`,
   },
   plugins: [
@@ -18,7 +20,7 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-plugin-chakra-ui",
+      resolve: 'gatsby-plugin-chakra-ui',
       options: {
         /**
          * @property {boolean} [isResettingCSS=true]
@@ -58,4 +60,4 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
-};
+}

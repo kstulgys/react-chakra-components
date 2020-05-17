@@ -6,7 +6,7 @@ import { Flex, Text, Box, Stack, Link as CLink, Button, Grid } from '@chakra-ui/
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="UI Components Built With React And Chakra-UI" />
     <Nav />
     <Header />
     <GridItemList />
